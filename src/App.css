@@ -1,0 +1,25 @@
+html{
+  margin: 0px;
+  padding: 0px;
+}
+body{
+
+  background: #212529;
+}
+
+/* YourStyleSheet.css */
+
+/* Set fixed dimensions for the image container */
+.card-img-container {
+  width: 100%; /* Adjust the width based on your layout */
+  height: 200px; /* Set a fixed height */
+  overflow: hidden; /* Hide overflowing parts */
+}
+
+/* Style the image inside the container */
+.card-img {
+  width: 100%; /* Make the image fill the container */
+  height: 100%; /* Ensure the image covers the container */
+  object-fit: cover; /* Maintain aspect ratio and cover the container */
+}
+
